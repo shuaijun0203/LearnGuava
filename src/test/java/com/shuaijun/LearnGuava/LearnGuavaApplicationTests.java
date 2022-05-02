@@ -8,6 +8,9 @@ class LearnGuavaApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("sssss");
+
+		System.out.println("@@@@@");
 	}
 
 }

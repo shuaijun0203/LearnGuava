@@ -9,9 +9,10 @@ import LearnGuava from './components/LearnGuava.vue'
 export default {
   name: 'App',
   components: {
-      LearnGuava
+    LearnGuava
   }
 }
+
 </script>
 
 <style>
