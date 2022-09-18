@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 cd /home/ec2-user/server
-chmod u+x LearnGuava-0.1.jar # jarファイルに実行権限を付与
-service LearnGuava-0.1 start
+sudo java -jar -Dserver.port=80 \
+    *.jar > /dev/null 2> /dev/null < /dev/null &

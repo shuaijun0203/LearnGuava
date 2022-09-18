@@ -1,2 +1,2 @@
 #!/bin/bash
-service LearnGuava-0.1 stop
+sudo pkill -f 'java -jar'
